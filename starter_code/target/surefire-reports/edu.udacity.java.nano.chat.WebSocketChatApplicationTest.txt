@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: edu.udacity.java.nano.chat.WebSocketChatApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 4 s <<< FAILURE! - in edu.udacity.java.nano.chat.WebSocketChatApplicationTest
+loginAndJoin(edu.udacity.java.nano.chat.WebSocketChatApplicationTest)  Time elapsed: 0.711 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/gargoylesoftware/css/parser/CSSException
+	at edu.udacity.java.nano.chat.WebSocketChatApplicationTest.setup(WebSocketChatApplicationTest.java:31)
+Caused by: java.lang.ClassNotFoundException: com.gargoylesoftware.css.parser.CSSException
+	at edu.udacity.java.nano.chat.WebSocketChatApplicationTest.setup(WebSocketChatApplicationTest.java:31)
+
+logout(edu.udacity.java.nano.chat.WebSocketChatApplicationTest)  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/gargoylesoftware/css/parser/CSSException
+	at edu.udacity.java.nano.chat.WebSocketChatApplicationTest.setup(WebSocketChatApplicationTest.java:31)
+Caused by: java.lang.ClassNotFoundException: com.gargoylesoftware.css.parser.CSSException
+	at edu.udacity.java.nano.chat.WebSocketChatApplicationTest.setup(WebSocketChatApplicationTest.java:31)
+
+chat(edu.udacity.java.nano.chat.WebSocketChatApplicationTest)  Time elapsed: 0.034 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/gargoylesoftware/css/parser/CSSException
+	at edu.udacity.java.nano.chat.WebSocketChatApplicationTest.setup(WebSocketChatApplicationTest.java:31)
+Caused by: java.lang.ClassNotFoundException: com.gargoylesoftware.css.parser.CSSException
+	at edu.udacity.java.nano.chat.WebSocketChatApplicationTest.setup(WebSocketChatApplicationTest.java:31)
+
